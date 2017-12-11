@@ -1,0 +1,12 @@
+[local]
+localhost
+
+[aws]
+ec2-18-216-166-25.us-east-2.compute.amazonaws.com
+ec2-18-217-190-229.us-east-2.compute.amazonaws.com
+ec2-18-217-219-134.us-east-2.compute.amazonaws.com
+ec2-18-217-83-230.us-east-2.compute.amazonaws.com
+
+[webservers]
+ec2-18-217-219-134.us-east-2.compute.amazonaws.com
+ec2-18-217-83-230.us-east-2.compute.amazonaws.com

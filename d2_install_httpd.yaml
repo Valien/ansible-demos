@@ -1,0 +1,26 @@
+---
+  # This playbook demonstrates a installing the httpd webserver
+
+  - hosts: webservers
+    remote_user: root
+    gather_facts: false
+    become: true
+
+    #vars:
+    #  http_port: 80
+
+  tasks:
+  - name: Installing HTTPD
+    yum:
+      name: httpd
+      state: latest
+
+  - name: Copy over sample index.html page
+    copy:
+      src: files/index.html
+      dest: /var/www/html/index.html
+
+  - name: Start httpd service
+    service:
+      name: httpd
+      state: started

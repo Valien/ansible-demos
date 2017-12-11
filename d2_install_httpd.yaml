@@ -1,13 +1,9 @@
 ---
-  # This playbook demonstrates a installing the httpd webserver
-
-  - hosts: webservers
-    remote_user: root
-    gather_facts: false
-    become: true
-
-    #vars:
-    #  http_port: 80
+# This playbook demonstrates a installing the httpd webserver
+- hosts: webservers
+  remote_user: root
+  gather_facts: false
+  become: true
 
   tasks:
   - name: Installing HTTPD

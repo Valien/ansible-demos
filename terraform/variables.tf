@@ -17,7 +17,7 @@ variable "size" {
 }
 
 variable "count" {
-    default = 4
+    default = 6
 }
 
 variable "key" {}

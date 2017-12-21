@@ -3,6 +3,7 @@
 .vscode
 *.retry
 terraform_hosts
+hosts
 
 /tests/*
 ip_address.txt

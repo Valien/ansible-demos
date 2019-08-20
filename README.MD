@@ -1,3 +1,2 @@
-## Ansible Demos ##
-
-This repo has demo playbooks for Ansible testing and more.
+# ansible-demos
+ Demos of various playbooks
